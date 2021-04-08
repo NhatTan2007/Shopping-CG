@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+nav.navbar{
+    background-color: #3b8ffd;
+}
+
+.table-stt{
+    width: 50px;
+}
+
+.table-status{
+    width: 150px;
+}
+
+.table-price{
+    width: 200px;
+}
+td.table-price{
+    text-align: right;
+}
+td.table-status, td.table-stt, td.table-action{
+    text-align: center;
+}
+
+.table-action{
+    width: 80px;
+}
+
+th{
+    padding: 3px !important;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
+
+.alert{
+    transition-duration: 1s;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.page-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
